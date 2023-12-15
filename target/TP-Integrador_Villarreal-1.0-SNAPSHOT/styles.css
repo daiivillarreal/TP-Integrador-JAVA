@@ -1,0 +1,71 @@
+.bg-dark {
+    opacity: .90;
+}
+
+.btn-enviar {
+    background-color: #96C93E !important;
+}
+
+.btn-enviar:hover{
+    background-color: #85b337 !important;
+}
+
+.carousel-inner{
+    height: 40rem;
+}
+
+.img-ds{
+    width: 100%;
+}
+
+.image-txt {
+    z-index: 1;
+    position: absolute;
+    margin-top: 15%;
+    padding-right: 5%;
+}
+
+
+.txt-oradores {
+    margin: 0;
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+.tag-rct{
+    background-color:#2697ae;
+}
+
+.tags{
+    font-weight: 700;
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    font-size:small;
+    margin: 0 !important;
+    text-align: start !important;
+}
+
+.tarjetas{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    margin-top: 15px !important;
+}
+
+@media (max-width: 480px) {
+    .img-rs {
+      width: auto !important;
+    }
+    .col{
+        margin-top: 5% !important;
+    }
+
+  }
+
+@media (min-width: 480px){
+    form{
+        width: 50%;
+    }
+}
